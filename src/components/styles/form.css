@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Roboto:wght@300&display=swap');
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+
+}
+
+.form h3 {
+    color: #fff;
+    font-weight: 200;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    transition: hover 1s ease;
+}
+
+.form h3:hover {
+    text-decoration: underline;
+}
+
+.form_input {
+    margin: 0.5rem 0;
+    background-color: rgba(252, 251, 251, 0.1);
+    padding: 0.4rem;
+    padding-left: 0.8rem;
+    border: 0.3px solid transparent;
+    border-radius: 20px;
+    text-align: left;
+    color: rgb(254, 247, 247);
+    outline: none;
+    /* background-color: #fff; */
+    transition: all 0.7s ease;
+}
+
+.form_input::placeholder {
+    color: rgb(247, 247, 247);
+    font-size: 15px;
+}
+
+input[type="text"]:hover {
+    border: 0.3px solid #fff;
+    background-color: rgba(252, 251, 251, 0);
+
+}
+
+input[type="password"]:hover {
+    border: 0.3px solid #fff;
+    background-color: rgba(252, 251, 251, 0);
+    opacity: 0.8;
+}
+
+.form_btn {
+    width: 11.5rem;
+    margin: 1rem 0;
+    padding: 0.3rem;
+    border-radius: 20px;
+    background: #fbceb5 !important;
+    border: 1px solid #fbceb5 !important;
+    color: #000 !important;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.form_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.form_remember {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+
+.input_radio {
+    margin: 0.3rem;
+    transition: all 0.3s ease;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+span {
+    color: #fff;
+    font-size: 11px;
+}
+
+.font-icon {
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    left: 80%;
+}
+
+.password_div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

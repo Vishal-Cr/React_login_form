@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  background-image: url('./Assets/Images/bg.jpg');
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0rem -5rem;
+  box-shadow: inset 0 0 0 2000px rgba(6, 6, 6, 0.3);
+}
+
+
+
+
+
+.App-header {
+  background-color: #282c34;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+
+@media(max-width:1200px) {
+  .App {
+    background-position: 0 0;
+  }
+}
